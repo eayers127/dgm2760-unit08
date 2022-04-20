@@ -1,0 +1,47 @@
+main{
+    width: 100%;
+    min-height: 100vh;
+   
+    justify-content: center;
+    align-items: center;
+
+}
+
+header{
+    background-image: url(../images/header_image.jpg);
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    max-height: 200px;
+    color: rgb(255, 255, 255);
+    text-shadow: 14px 14px 15px rgb(0, 0, 0);
+}
+
+.feedback{
+    background-color: aliceblue;
+    margin-bottom: 2rem;
+    
+
+}
+main div{
+    display: flex;
+    width: auto;
+    background-color: azure;
+    border-radius:1in black;
+    font-size: 2rem;
+}
+
+button{
+    padding: .5rem;
+    margin: 1rem 0 0 2rem;
+    display: flex;
+    background-color: blanchedalmond;
+    color: black;
+    min-width: 20rem;
+    
+    
+}
+
+#answer_change button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
